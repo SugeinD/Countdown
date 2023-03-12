@@ -1,0 +1,45 @@
+* {
+  margin: o;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(love-1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.countdown-timer-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+}
+
+.countdown-timer-container div {
+  width: 25%;
+  text-align: center;
+  font-size: 30px;
+  
+}
+
+.countdown-timer-values {
+  font-size: 80px !important;
+}
+
+.title {
+  width: 100%;
+  flex-direction: row;
+  flex: content;
+  flex-wrap: nowrap;
+  margin-top: 100px;
+  color:darkblue;
+  text-align: center;
+
+}
